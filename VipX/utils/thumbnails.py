@@ -127,9 +127,9 @@ async def gen_thumb(videoid, user_id):
             draw.text(
                 (590, 80),
                 f"Playing Now Baby...",
-                fill="red",
+                fill="yellow",
                 stroke_width=1,
-                stroke_fill="red",
+                stroke_fill="yellow",
                 font=font,
             )
             if para[0]:
